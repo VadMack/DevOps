@@ -29,6 +29,7 @@ jobs:
     - name: ls
       run: |
         cd Names
+        cd target
         ls
         
     - name: Upload a Build Artifact
@@ -37,4 +38,4 @@ jobs:
         # Artifact name
         name: my-artifact
         # Destination path
-        path: "*SNAPSHOT*"
+        path: /Names/target
