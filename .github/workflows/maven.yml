@@ -26,8 +26,8 @@ jobs:
         cd Names
         mvn -B package --file pom.xml
         
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v2.0.9
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.3
       with:
         # Artifact name
         name: my-artifact
