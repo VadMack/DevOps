@@ -19,7 +19,7 @@
         <archive>
           <manifest>
             <addClasspath>true</addClasspath>
-            <classpathPrefix>com/names/Main</classpathPrefix>
+            <classpathPrefix>lib/</classpathPrefix>
             <mainClass>com.names.Main</mainClass>
           </manifest>
         </archive>
