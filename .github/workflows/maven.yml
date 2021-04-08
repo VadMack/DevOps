@@ -35,4 +35,4 @@ jobs:
         # Artifact name
         name: my-artifact
         # Destination path
-        path: "*SNAPSHPT*"
+        path: "*SNAPSHOT*"
