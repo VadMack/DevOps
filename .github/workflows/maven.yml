@@ -30,6 +30,6 @@ jobs:
       uses: actions/download-artifact@v2.0.9
       with:
         # Artifact name
-        name: "*.jar"
+        name: my-artifact
         # Destination path
-        path: my-path
+        path: "*.jar"
