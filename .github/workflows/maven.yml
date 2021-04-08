@@ -38,5 +38,5 @@ jobs:
         # Artifact name
         name: my-artifact
         # Destination path
-        path: "/Names/target/Names-1.0-SNAPSHOT.jar"
+        path: "./Names/target/Names-1.0-SNAPSHOT.jar"
         retention-days: 1
